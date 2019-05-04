@@ -62,7 +62,7 @@ python3 generatePatterns.py
 ```
 python3 trainModel.py
 ```  
-2\. After training, user will get `CNNmodel.h5`
+2\. After training, user will get `cnnModel.h5`
 <br>
 <br>
 
