@@ -87,8 +87,11 @@ python3 trainModel.py
 
 ## Train CNN Model using TPU (Optional)
 1\. Create a notebook `.ipynb` on [Colab](https://colab.research.google.com/)
+
 2\. Copy the code in `trainModelTPU.py` to notebook
+
 3\. Upload `Class1Patterns.pkl` and `Class2Patterns.pkl` to `./Colab Notebooks` on your Google drive
+
 4\. Run and get `cnnModel.h5` on the Google drive
 <br>
 
