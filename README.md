@@ -12,7 +12,7 @@ A two-class music genre classfier based on CNN (Convolution Neuron Network).
 
 ## Prerequisites
 
-**1. Python3**
+1\. Python3
 
 Linux
 ```
@@ -25,12 +25,12 @@ MacOS
 brew install python3
 ```
 
-**2. Feature Extracion Tool**
+2\. Feature Extracion Tool
 ```
 pip3 install librosa
 ```
 
-**3. Model Training Tools**
+3\. Model Training Tools
 ```
 pip3 install keras tensorflow
 ```
@@ -41,17 +41,24 @@ pip3 install keras tensorflow
 1\. Put two groups of songs into `./training song/class1` and `./training song/class2`
 
 2\. Run 
- ```
- python3 generatePatterns.py
- ```  
+```
+python3 generatePatterns.py
+```  
 3\. After extraction, user will get training sets `Class1Patterns.pkl` and `Class1Patterns.pkl`
 
-## Train CNN model 
+## Train CNN Model 
  > Skip this step if user wants to use the default `progNonprogModel.h5` to try validation set
 1\. Run
- ```
- python3 trainModel.py
- ```  
+```
+python3 trainModel.py
+```  
 2\. After training, user will get `CNNmodel.h5`
 
-
+## Validate CNN Model
+1\. Put two groups of songs into `./validation song/class1` and `./validation song/class2`
+> Songs for validation should be different from the ones for training
+2\. Run
+```
+python3 evaluateModel.py
+```
+3\. See results in console
