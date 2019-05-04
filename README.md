@@ -45,7 +45,7 @@ pip3 install keras tensorflow
 ## Extract Mel-spectograms from Songs as Training set
 > Skip this step if user wants to use the default training set (`progPatterns.pkl` and `nonprogPatterns.pkl`)
 
-1\. Put two groups of songs into `./training song/class1` and `./training song/class2`
+1\. Put two groups of songs (.mp3) into `./training song/class1` and `./training song/class2`
 
 2\. Run 
 ```
@@ -67,7 +67,7 @@ python3 trainModel.py
 <br>
 
 ## Validate CNN Model
-1\. Put two groups of songs into `./validation songs/class1` and `./validation songs/class2`
+1\. Put two groups of songs (.mp3) into `./validation songs/class1` and `./validation songs/class2`
 > Songs for validation should be different from the ones for training
 
 2\. Run
