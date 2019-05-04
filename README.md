@@ -12,6 +12,25 @@ A two-class music genre classfier based on CNN (Convolution Neuron Network).
 
 4\. Visualize each kernels (For learning purpose)
 
+```
+code
+  |-- generatePatterns.py
+  |-- trainModel.py
+  |-- trainModelTPU.py (optional)
+  |
+ 
+training songs
+  |
+  |-- class1
+  |-- class2
+
+validation songs
+  |
+  |-- class1
+  |-- class2
+  
+```
+
 > NOTE that this project takes the classification of prograssive rock and non-prograssive rock musics as an example. Users can feel free to change them to other music genres.
 <br>
 
@@ -64,6 +83,13 @@ python3 trainModel.py
 ```  
 2\. After training, user will get `cnnModel.h5` and `Scalers.sav`
 > Scalers are used for training set normalization (make values in each channel between -1 and +1). It is necessary to use the same scalers to normalize validation songs.
+<br>
+
+## Train CNN Model using TPU (Optional)
+1\. Create a notebook `.ipynb` on [Colab](https://colab.research.google.com/)
+2\. Copy the code in `trainModelTPU.py` to notebook
+3\. Upload `Class1Patterns.pkl` and `Class2Patterns.pkl` to `./Colab Notebooks` on your Google drive
+4\. Run and get `cnnModel.h5` on the Google drive
 <br>
 
 ## Validate CNN Model
