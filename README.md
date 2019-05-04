@@ -79,7 +79,7 @@ python3 evaluateModel.py
 <br>
 
 ## Visualize CNN Kernels
-This feature is for learning purpose. The code is referenced from a well-written post [Visualization of Filters with Keras](https://fairyonice.github.io/Visualization%20of%20Filters%20with%20Keras.html)
+This feature is for learning purpose. The code is referenced from an amazing post [Visualization of Filters with Keras (Yumi's Blog)](https://fairyonice.github.io/Visualization%20of%20Filters%20with%20Keras.html)
 ```
 python3 visualizeKernel.py
 ```
