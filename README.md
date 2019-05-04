@@ -86,4 +86,4 @@ python3 visualizeKernel.py
 <br>
 <br>
 
-Feel free to contact me if you find anything wrong or have any question :D
+Feel free to contact me if you find a bug or have any question :D
