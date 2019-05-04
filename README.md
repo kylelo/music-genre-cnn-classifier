@@ -15,10 +15,9 @@ A two-class music genre classfier based on CNN (Convolution Neuron Network).
 **1. Python3**
 
 Linux
-
 ```
 apt-get update
-apt-get install python3.6`
+apt-get install python3.6
 ```
 
 MacOS
