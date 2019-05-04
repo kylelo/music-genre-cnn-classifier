@@ -1,14 +1,19 @@
 # music-genre-cnn-classifier
 A two-class music genre classfier based on CNN (Convolution Neuron Network). 
-
+<br>
+<br>
 
 ## What does this project do?
-1. Extract Mel-spectrogram as the training set from two group of songs with different genre 
-2. Train the CNN model
-3. Validate the CNN model using test set
-4. Visualize each kernels (For learning purpose)
+1\. Extract Mel-spectrogram as the training set from two group of songs with different genre 
+
+2\. Train the CNN model
+
+3\. Validate the CNN model using test set
+
+4\. Visualize each kernels (For learning purpose)
 
 > NOTE that this project takes the classification of prograssive rock and non-prograssive rock musics as an example. Users can feel free to change them to other music genres.
+<br>
 
 ## Prerequisites
 
@@ -34,6 +39,8 @@ pip3 install librosa
 ```
 pip3 install keras tensorflow
 ```
+<br>
+
 
 ## Extract Mel-spectogram from Songs as Training set
 > Skip this step if user wants to use the default training set (`progPatterns.pkl` and `nonprogPatterns.pkl`)
@@ -45,6 +52,7 @@ pip3 install keras tensorflow
 python3 generatePatterns.py
 ```  
 3\. After extraction, user will get training sets `Class1Patterns.pkl` and `Class1Patterns.pkl`
+<br>
 
 ## Train CNN Model 
  > Skip this step if user wants to use the default `progNonprogModel.h5` to try validation set
@@ -53,6 +61,7 @@ python3 generatePatterns.py
 python3 trainModel.py
 ```  
 2\. After training, user will get `CNNmodel.h5`
+<br>
 
 ## Validate CNN Model
 1\. Put two groups of songs into `./validation songs/class1` and `./validation songs/class2`
