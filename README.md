@@ -6,7 +6,7 @@ A two-class music genre classfier based on CNN (Convolution Neuron Network).
 2. Train the CNN model
 3. Validate the CNN model using test set
 
-
+<p>
 NOTE that this project trains a CNN to classify prograssive rock and non-prograssive rock musics. (Users can also change to other music genre whatever they want).
 
 
