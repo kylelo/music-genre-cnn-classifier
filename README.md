@@ -25,8 +25,7 @@ MacOS
 brew install python3
 ```
 
-**2. Module needed by CNN
-
+**2. Keras and Tensorflow
 ```
 pip3 install keras tensorflow
 ```
