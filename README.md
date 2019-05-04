@@ -71,8 +71,9 @@ pip3 install keras tensorflow
 python3 generatePatterns.py
 ```  
 3\. After extraction, user will get training sets `Class1Patterns.pkl` and `Class2Patterns.pkl`
+
 <br>
-<br>
+
 
 ## Train CNN Model 
  > Skip this step if user wants to use the default `progNonprogModel.h5` to try validation set
@@ -83,7 +84,6 @@ python3 trainModel.py
 ```  
 2\. After training, user will get `cnnModel.h5` and `Scalers.sav`
 > Scalers are used for training set normalization (make values in each channel between -1 and +1). It is necessary to use the same scalers to normalize validation songs.
-<br>
 <br>
 
 
@@ -96,6 +96,8 @@ python3 trainModel.py
 
 4\. Run and get `cnnModel.h5` on the Google drive
 <br>
+<br>
+
 
 ## Validate CNN Model
 1\. Put two groups of songs (.mp3) into `./validation songs/class1` and `./validation songs/class2`
