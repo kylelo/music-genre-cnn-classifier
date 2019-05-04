@@ -75,3 +75,11 @@ python3 trainModel.py
 python3 evaluateModel.py
 ```
 3\. See results in console
+<br>
+<br>
+
+## Validate CNN Model
+This feature is for learning purpose and the code is reference from 
+```
+python3 visualizeKernel.py
+```
