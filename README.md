@@ -53,6 +53,7 @@ python3 generatePatterns.py
 ```  
 3\. After extraction, user will get training sets `Class1Patterns.pkl` and `Class1Patterns.pkl`
 <br>
+<br>
 
 ## Train CNN Model 
  > Skip this step if user wants to use the default `progNonprogModel.h5` to try validation set
@@ -62,6 +63,7 @@ python3 generatePatterns.py
 python3 trainModel.py
 ```  
 2\. After training, user will get `CNNmodel.h5`
+<br>
 <br>
 
 ## Validate CNN Model
