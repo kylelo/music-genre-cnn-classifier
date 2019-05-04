@@ -12,8 +12,9 @@ A two-class music genre classfier based on CNN (Convolution Neuron Network).
 
 ### Prerequisites
 1. Pytohn3
-
-`sudo apt-get update
- sudo apt-get install python3.6`
-
+Linux
+`sudo apt-get update`
+`sudo apt-get install python3.6`
+MacOS
+`brew install python3`
 
