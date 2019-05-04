@@ -62,7 +62,8 @@ python3 generatePatterns.py
 ```
 python3 trainModel.py
 ```  
-2\. After training, user will get `cnnModel.h5`
+2\. After training, user will get `cnnModel.h5` and `Scalers.sav`
+> Scaler is used for training set normalization (make value in each channel between -1 and +1). It is necessary to use the same scaler to normalize validation songs.
 <br>
 <br>
 
