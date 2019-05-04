@@ -65,7 +65,6 @@ python3 trainModel.py
 2\. After training, user will get `cnnModel.h5` and `Scalers.sav`
 > Scalers are used for training set normalization (make values in each channel between -1 and +1). It is necessary to use the same scalers to normalize validation songs.
 <br>
-<br>
 
 ## Validate CNN Model
 1\. Put two groups of songs into `./validation songs/class1` and `./validation songs/class2`
