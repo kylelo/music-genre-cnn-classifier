@@ -25,12 +25,12 @@ MacOS
 brew install python3
 ```
 
-2\. Feature Extracion Tool
+2\. Feature extracion tool
 ```
 pip3 install librosa
 ```
 
-3\. Model Training Tools
+3\. Model training tools
 ```
 pip3 install keras tensorflow
 ```
