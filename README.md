@@ -51,7 +51,7 @@ pip3 install keras tensorflow
 ```
 python3 generatePatterns.py
 ```  
-3\. After extraction, user will get training sets `Class1Patterns.pkl` and `Class1Patterns.pkl`
+3\. After extraction, user will get training sets `Class1Patterns.pkl` and `Class2Patterns.pkl`
 <br>
 <br>
 
