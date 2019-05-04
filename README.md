@@ -56,6 +56,7 @@ python3 generatePatterns.py
 
 ## Train CNN Model 
  > Skip this step if user wants to use the default `progNonprogModel.h5` to try validation set
+ 
 1\. Run
 ```
 python3 trainModel.py
