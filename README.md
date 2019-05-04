@@ -25,7 +25,7 @@ MacOS
 brew install python3
 ```
 
-**2. Keras and Tensorflow
+2. Keras and Tensorflow
 ```
 pip3 install keras tensorflow
 ```
