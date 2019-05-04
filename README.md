@@ -83,3 +83,7 @@ This feature is for learning purpose. This part of the code is referenced from a
 ```
 python3 visualizeKernel.py
 ```
+<br>
+<br>
+
+Feel free to contact me if you find anything wrong or have any question :D
