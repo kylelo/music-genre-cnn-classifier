@@ -84,6 +84,8 @@ python3 trainModel.py
 2\. After training, user will get `cnnModel.h5` and `Scalers.sav`
 > Scalers are used for training set normalization (make values in each channel between -1 and +1). It is necessary to use the same scalers to normalize validation songs.
 <br>
+<br>
+
 
 ## Train CNN Model using TPU (Optional)
 1\. Create a notebook `.ipynb` on [Colab](https://colab.research.google.com/)
