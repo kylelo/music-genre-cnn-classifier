@@ -39,6 +39,7 @@ pip3 install keras tensorflow
 > Skip this step if user wants to use the default training set (`progPatterns.pkl` and `nonprogPatterns.pkl`)
 
 1\. Put two groups of songs into `./training song/class1` and `./training song/class2`
+
 2\. Run 
  ```
  python3 generatePatterns.py
@@ -46,9 +47,11 @@ pip3 install keras tensorflow
 3\. After extraction, user will get training sets `Class1Patterns.pkl` and `Class1Patterns.pkl`
 
 ## Train CNN model 
- 
+ > Skip this step if user wants to use the default `progNonprogModel.h5` to try validation set
+1\. Run
+ ```
+ python3 trainModel.py
+ ```  
+2\. After training, user will get `CNNmodel.h5`
 
 
-
-
-(trainModel.py)
