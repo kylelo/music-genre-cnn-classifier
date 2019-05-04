@@ -1,5 +1,6 @@
 # music-genre-cnn-classifier
 A two-class music genre classfier based on CNN (Convolution Neuron Network). 
+\
 
 ## What does this project do?
 1. Extract Mel-spectrogram as the training set from two group of songs with different genre 
