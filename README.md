@@ -38,12 +38,12 @@ pip3 install keras tensorflow
 ## Extract Mel-spectogram from Songs as Training set
 > Skip this step if user wants to use the default training set (`progPatterns.pkl` and `nonprogPatterns.pkl`)
 
-Put two groups of songs into `./training song/class1` and `./training song/class2`
-Run 
-```
-python3 generatePatterns.py
-```  
-After extraction, user will get training sets `Class1Patterns.pkl` and `Class1Patterns.pkl`
+1. Put two groups of songs into `./training song/class1` and `./training song/class2`
+2. Run 
+ ```
+ python3 generatePatterns.py
+ ```  
+3. After extraction, user will get training sets `Class1Patterns.pkl` and `Class1Patterns.pkl`
 
 ## Train CNN model 
  
