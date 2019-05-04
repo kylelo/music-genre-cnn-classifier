@@ -55,8 +55,9 @@ python3 trainModel.py
 2\. After training, user will get `CNNmodel.h5`
 
 ## Validate CNN Model
-1\. Put two groups of songs into `./validation song/class1` and `./validation song/class2`
+1\. Put two groups of songs into `./validation songs/class1` and `./validation songs/class2`
 > Songs for validation should be different from the ones for training
+
 2\. Run
 ```
 python3 evaluateModel.py
