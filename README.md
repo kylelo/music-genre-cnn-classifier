@@ -80,7 +80,7 @@ python3 generatePatterns.py
 
 
 ## Train CNN Model 
- > Skip this step if user wants to use the default trained [model](https://drive.google.com/file/d/11GtfNa6Lzm09ifd6Shu6CUv61kW6wJXB/view?usp=sharing) to try validation set
+ > Skip this step by using the default trained [model](https://drive.google.com/file/d/11GtfNa6Lzm09ifd6Shu6CUv61kW6wJXB/view?usp=sharing) to try validation set
  
 1\. Run
 ```
