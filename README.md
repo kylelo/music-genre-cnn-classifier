@@ -1,6 +1,7 @@
 # Music Genre CNN Classifier
 A two-class music genre classifier based on CNN (Convolution Neuron Network). 
-![LOGO](https://user-images.githubusercontent.com/7735800/57189492-78801b00-6edd-11e9-8d6c-be3fabaf6102.png){:height="50%" width="50%"}
+<img src="https://user-images.githubusercontent.com/7735800/57189492-78801b00-6edd-11e9-8d6c-be3fabaf6102.png" width="50%" height="%">
+
 <br>
 <br>
 
