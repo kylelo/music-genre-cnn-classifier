@@ -14,6 +14,7 @@ A two-class music genre classfier based on CNN (Convolution Neuron Network).
 
 ```
 code
+  |
   |-- generatePatterns.py
   |-- trainModel.py
   |-- trainModelTPU.py (optional)
