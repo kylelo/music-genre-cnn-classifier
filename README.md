@@ -15,27 +15,28 @@ A two-class music genre classifier based on CNN (Convolution Neuron Network).
 > NOTE that this project takes the classification of prograssive rock and non-prograssive rock musics as an example. Users can feel free to change them to other music genres.
 
 ```
-code
-  |
-  |-- generatePatterns.py
-  |-- trainModel.py
-  |-- evaluateModel.py
-  |-- toolbox
-        |-- featureExtractTool.py (helper functions)
-        |-- evaluateModelTool.py  (helper functions)
-        |-- trainModelTPU.py   (optional)
-        |-- generateTestset.py (optional)
-        |-- visualizeKernel.py (optional)
- 
-training songs
-  |
-  |-- class1
-  |-- class2
-
-validation songs
-  |
-  |-- class1
-  |-- class2
+|
+|-code
+|   |
+|   |-- generatePatterns.py
+|   |-- trainModel.py
+|   |-- evaluateModel.py
+|   |-- toolbox
+|         |-- featureExtractTool.py (helper functions)
+|         |-- evaluateModelTool.py  (helper functions)
+|         |-- trainModelTPU.py   (optional)
+|         |-- generateTestset.py (optional)
+|         |-- visualizeKernel.py (optional)
+| 
+|- training songs (create manually)
+|    |
+|    |-- class1
+|    |-- class2
+|
+|- validation songs (create manually)
+     |
+     |-- class1
+     |-- class2
 ```
 
 
