@@ -17,7 +17,9 @@ code
   |-- generatePatterns.py
   |-- trainModel.py
   |-- trainModelTPU.py (optional)
-  |
+  |-- evaluateModel.py
+  |-- generateTestset.py (optional)
+  |-- visualizeKernel.py (optional)
  
 training songs
   |
@@ -111,7 +113,7 @@ python3 evaluateModel.py
 <br>
 <br>
 
-## Visualize CNN Kernels
+## Visualize CNN Kernels (Optional)
 This feature is for learning purpose. This part of the code is referenced from an amazing post [Visualization of Filters with Keras (Yumi's Blog)](https://fairyonice.github.io/Visualization%20of%20Filters%20with%20Keras.html)
 ```
 python3 visualizeKernel.py
