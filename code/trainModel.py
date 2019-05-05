@@ -161,7 +161,6 @@ def train_model(a_Patterns, a_Labels, a_KSplit):
         if scores[1] > t_BestACC:
             t_BestACC = scores[1]
             t_BestModel = t_Model
-        break #########################################################################
 
     print('BestACC =', t_BestACC)
 
