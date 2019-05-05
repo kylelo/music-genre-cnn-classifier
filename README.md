@@ -1,5 +1,19 @@
 # Music Genre CNN Classifier
 A two-class music genre classfier based on CNN (Convolution Neuron Network). 
+<br>
+<br>
+
+## What does this project do?
+1\. Extract Mel-spectrogram as the training set from two group of songs with different genre 
+
+2\. Train the CNN model (on your PC or Google TPU)
+
+3\. Validate the CNN model using test set
+
+4\. Visualize each kernels (For learning purpose)
+
+> NOTE that this project takes the classification of prograssive rock and non-prograssive rock musics as an example. Users can feel free to change them to other music genres.
+
 ```
 code
   |
@@ -19,21 +33,9 @@ validation songs
   |
   |-- class1
   |-- class2
-  
 ```
-<br>
-<br>
 
-## What does this project do?
-1\. Extract Mel-spectrogram as the training set from two group of songs with different genre 
 
-2\. Train the CNN model
-
-3\. Validate the CNN model using test set
-
-4\. Visualize each kernels (For learning purpose)
-
-> NOTE that this project takes the classification of prograssive rock and non-prograssive rock musics as an example. Users can feel free to change them to other music genres.
 <br>
 
 ## Prerequisites
@@ -64,7 +66,7 @@ pip3 install keras tensorflow
 
 
 ## Extract Mel-spectograms from Songs as Training set
-> Skip this step if user wants to use the default training set (`progPatterns.pkl` and `nonprogPatterns.pkl`)
+> Skip this step by downloading default training sets (Class1: [Prop songs](https://drive.google.com/file/d/1ggK2dHxsiVPdFeDtgIUEir0KDj82HOgF/view?usp=sharing) and Class2: [Non-prog songs](https://drive.google.com/file/d/1ZiCTaWlbeo702_4A1TjgWVc_grOu7sml/view?usp=sharing))
 
 1\. Put two groups of songs (.mp3) into `./training song/class1` and `./training song/class2`
 
