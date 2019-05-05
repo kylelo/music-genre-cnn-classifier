@@ -1,16 +1,16 @@
 # Music Genre CNN Classifier
-A two-class music genre classfier based on CNN (Convolution Neuron Network). 
+A two-class music genre classifier based on CNN (Convolution Neuron Network). 
 <br>
 <br>
 
 ## What does this project do?
-1\. Extract Mel-spectrogram as the training set from two group of songs with different genre 
+1\. Extract Mel-spectrogram as the training set from two groups of songs with different genre 
 
 2\. Train the CNN model (on your PC or Google TPU)
 
-3\. Validate the CNN model using test set
+3\. Evaluate the CNN model using the validation set
 
-4\. Visualize each kernels (For learning purpose)
+4\. Visualize each kernel (For learning purpose)
 
 > NOTE that this project takes the classification of prograssive rock and non-prograssive rock musics as an example. Users can feel free to change them to other music genres.
 
@@ -56,7 +56,7 @@ MacOS
 brew install python3
 ```
 
-2\. Feature extracion tool
+2\. Feature extraction tool
 ```
 pip3 install librosa
 ```
