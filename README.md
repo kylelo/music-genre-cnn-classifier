@@ -19,8 +19,9 @@ code
   |
   |-- generatePatterns.py
   |-- trainModel.py
-  |-- trainModelTPU.py (optional)
   |-- evaluateModel.py
+  |-- featureExtractTool.py
+  |-- trainModelTPU.py (optional)
   |-- generateTestset.py (optional)
   |-- visualizeKernel.py (optional)
  
