@@ -153,7 +153,7 @@ def train_model(a_Patterns, a_Labels, a_KSplit):
         # Print model structure
         print(t_Model.summary())
 
-        t_Model.fit(a_Patterns[trainIdx], a_Labels[trainIdx], epochs=5, batch_size=128, validation_data=(a_Patterns[testIdx], a_Labels[testIdx]))
+        t_Model.fit(a_Patterns[trainIdx], a_Labels[trainIdx], epochs=10, batch_size=128, validation_data=(a_Patterns[testIdx], a_Labels[testIdx]))
         scores = t_Model.evaluate(a_Patterns[testIdx], a_Labels[testIdx], verbose=0)
 
         # Update best model
