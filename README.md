@@ -20,10 +20,12 @@ code
   |-- generatePatterns.py
   |-- trainModel.py
   |-- evaluateModel.py
-  |-- featureExtractTool.py
-  |-- trainModelTPU.py (optional)
-  |-- generateTestset.py (optional)
-  |-- visualizeKernel.py (optional)
+  |-- toolbox
+        |-- featureExtractTool.py (helper functions)
+        |-- evaluateModelTool.py  (helper functions)
+        |-- trainModelTPU.py   (optional)
+        |-- generateTestset.py (optional)
+        |-- visualizeKernel.py (optional)
  
 training songs
   |
