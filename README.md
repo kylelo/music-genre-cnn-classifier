@@ -97,7 +97,7 @@ python3 trainModel.py
 
 2\. Copy the code in `trainModelTPU.py` to notebook
 
-3\. Upload `Class1Patterns.pkl` and `Class2Patterns.pkl` to `./Colab Notebooks` on your Google drive
+3\. Upload `class1Patterns.pkl` and `class2Patterns.pkl` to `./Colab Notebooks` on your Google drive
 
 4\. Run and get `cnnModel.h5` on the Google drive
 <br>
