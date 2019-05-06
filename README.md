@@ -128,6 +128,8 @@ This feature is for learning purpose. This part of the code is referenced from a
 ```
 python3 visualizeKernel.py
 ```
+<img src="https://user-images.githubusercontent.com/7735800/57206360-31546180-6f93-11e9-9a81-a4f12b3fe058.png" width="90%" height="90%">
+
 <br>
 <br>
 
