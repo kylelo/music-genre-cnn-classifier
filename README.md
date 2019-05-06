@@ -20,7 +20,7 @@ A two-class music genre classifier based on CNN (Convolutional Neuron Network).
 
 ```
 |
-|-code
+|- code
 |   |
 |   |-- generatePatterns.py
 |   |-- trainModel.py
